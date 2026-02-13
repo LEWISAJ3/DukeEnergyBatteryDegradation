@@ -1,0 +1,2 @@
+- raw/: Place downloaded .mat files from NASA Battery dataset here
+- processed/: This folder will contain cleaned Parquet files after running PreProcessing notebook
