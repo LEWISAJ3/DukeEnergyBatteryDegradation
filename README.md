@@ -44,8 +44,8 @@ Each folder contains a dedicated README with more detailed explanations.
 1. Clone the repository
 
 ```
-git clone <your repo link>
-cd <repo name>
+git clone https://github.com/LEWISAJ3/DukeEnergyBatteryDegradation
+cd DukeEnergyBatteryDegradation
 ```
 
 2. Install dependencies
@@ -55,16 +55,13 @@ pip install -r requirements.txt
 ```
 
 3. Download datasets and place them inside:
+data/raw
 
-```
-data/
-```
+4. Run preprocessing notebook before modeling:
 
-4. Run preprocessing before modeling:
 
-```
-python PreProcessing/<scriptname>.py
-```
+PreProcessing/Combined_Preprocessing.ipynb
+
 
 After preprocessing, notebooks in `FPCA/` and `VR/` can be executed.
 
